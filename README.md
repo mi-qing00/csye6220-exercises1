@@ -152,7 +152,15 @@ cd /Users/kaitl/projects/csye6220/a1
 - 主页: http://localhost:8080/request-headers/
 - 各章节直接通过URL访问
 
-### 3. 停止项目
+### 3. 重新编译
+完成练习后
+```bash
+cd /Users/kaitl/projects/csye6220/a1
+./compile.sh
+```
+并刷新浏览器页面
+
+### 4. 停止项目
 ```bash
 ./stop-tomcat.sh
 ```
