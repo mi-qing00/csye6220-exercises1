@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+    <TITLE>Referer测试页面</TITLE>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+    <STYLE>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #FDF5E6; }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { color: #8B4513; text-align: center; }
+        .test-section { background-color: #FFF8DC; border: 1px solid #DEB887; margin: 20px 0; padding: 20px; border-radius: 8px; }
+        .button { 
+            display: inline-block; 
+            background-color: #DEB887; 
+            color: #8B4513; 
+            padding: 10px 20px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            margin: 5px;
+            font-weight: bold;
+        }
+        .button:hover { background-color: #D2B48C; }
+        .info { background-color: #F0F8FF; padding: 15px; border-left: 4px solid #4682B4; margin: 15px 0; }
+    </STYLE>
+</HEAD>
+<BODY>
+    <DIV class="container">
+        <H1>🔗 Referer头测试页面</H1>
+        
+        <DIV class="info">
+            <H3>📋 测试说明</H3>
+            <P>这个页面用于测试Referer头的功能。当您点击下面的链接时，目标页面会检测到您是从这个页面访问的，并显示相应的Referer信息。</P>
+        </DIV>
+
+        <DIV class="test-section">
+            <H3>🧪 测试链接</H3>
+            <P>点击下面的链接来测试Referer头功能：</P>
+            <P><A href="CustomizeImage" class="button">测试Referer检测</A></P>
+            <P>当您点击上面的链接时，目标页面会显示：</P>
+            <UL>
+                <LI>Referer头的值（应该是当前页面的URL）</LI>
+                <LI>根据Referer来源显示不同的内容</LI>
+                <LI>防盗链检测结果</LI>
+            </UL>
+        </DIV>
+
+        <DIV class="test-section">
+            <H3>🔍 不同来源测试</H3>
+            <P>您可以通过以下方式测试不同的Referer情况：</P>
+            <UL>
+                <LI><B>直接访问:</B> 在地址栏直接输入URL（无Referer）</LI>
+                <LI><B>从本页面访问:</B> 点击上面的链接（有Referer）</LI>
+                <LI><B>从搜索引擎访问:</B> 模拟搜索引擎来源</LI>
+                <LI><B>从外部网站访问:</B> 模拟外部网站来源</LI>
+            </UL>
+        </DIV>
+
+        <DIV class="test-section">
+            <H3>📚 学习要点</H3>
+            <P>通过这个测试，您可以学习到：</P>
+            <UL>
+                <LI>Referer头的基本概念和作用</LI>
+                <LI>如何检测和处理Referer头</LI>
+                <LI>防盗链的实现原理</LI>
+                <LI>来源分析和统计的方法</LI>
+                <LI>Referer Policy的影响</LI>
+            </UL>
+        </DIV>
+
+        <DIV class="test-section">
+            <H3>⚠️ 注意事项</H3>
+            <P>关于Referer头的重要注意事项：</P>
+            <UL>
+                <LI>Referer头可能为空（直接访问、书签访问等）</LI>
+                <LI>Referer头可以被伪造，不应用于安全验证</LI>
+                <LI>现代浏览器支持Referrer Policy控制Referer头的发送</LI>
+                <LI>某些浏览器扩展或隐私设置可能阻止Referer头的发送</LI>
+            </UL>
+        </DIV>
+
+        <P style="text-align: center; margin-top: 40px;">
+            <A href="index.html" class="button">返回主页</A>
+        </P>
+    </DIV>
+</BODY>
+</HTML>

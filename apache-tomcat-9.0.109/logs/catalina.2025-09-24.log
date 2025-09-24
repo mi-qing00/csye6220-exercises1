@@ -1,0 +1,102 @@
+24-Sep-2025 02:29:41.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.109
+24-Sep-2025 02:29:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 1 2025 12:15:33 UTC
+24-Sep-2025 02:29:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.109.0
+24-Sep-2025 02:29:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Sep-2025 02:29:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.0
+24-Sep-2025 02:29:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+24-Sep-2025 02:29:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kaitl/Library/Java/JavaVirtualMachines/openjdk-24.0.2+12-54/Contents/Home
+24-Sep-2025 02:29:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           24.0.2+12-54
+24-Sep-2025 02:29:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2025 02:29:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109
+24-Sep-2025 02:29:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109
+24-Sep-2025 02:29:41.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Sep-2025 02:29:41.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+24-Sep-2025 02:29:41.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+24-Sep-2025 02:29:41.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Sep-2025 02:29:41.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-Sep-2025 02:29:41.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Sep-2025 02:29:41.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Sep-2025 02:29:41.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/conf/logging.properties
+24-Sep-2025 02:29:41.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2025 02:29:41.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2025 02:29:41.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2025 02:29:41.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+24-Sep-2025 02:29:41.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Sep-2025 02:29:41.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Sep-2025 02:29:41.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109
+24-Sep-2025 02:29:41.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109
+24-Sep-2025 02:29:41.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/temp
+24-Sep-2025 02:29:41.503 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kaitl/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Sep-2025 02:29:41.615 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Sep-2025 02:29:41.625 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [207] milliseconds
+24-Sep-2025 02:29:41.638 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2025 02:29:41.638 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.109]
+24-Sep-2025 02:29:41.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/docs]
+24-Sep-2025 02:29:41.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/docs] has finished in [98] ms
+24-Sep-2025 02:29:41.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/manager]
+24-Sep-2025 02:29:41.756 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/manager] has finished in [16] ms
+24-Sep-2025 02:29:41.756 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/examples]
+24-Sep-2025 02:29:41.843 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/examples] has finished in [87] ms
+24-Sep-2025 02:29:41.843 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/ROOT]
+24-Sep-2025 02:29:41.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/ROOT] has finished in [6] ms
+24-Sep-2025 02:29:41.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/host-manager]
+24-Sep-2025 02:29:41.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/host-manager] has finished in [7] ms
+24-Sep-2025 02:29:41.858 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Sep-2025 02:29:41.862 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [235] milliseconds
+24-Sep-2025 02:30:31.885 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/webapps]
+24-Sep-2025 02:30:31.905 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/webapps] has finished in [20] ms
+24-Sep-2025 02:30:42.416 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapps]
+24-Sep-2025 02:30:42.426 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/request-headers]
+24-Sep-2025 02:30:42.446 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/request-headers] has finished in [19] ms
+24-Sep-2025 02:31:08.684 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Sep-2025 02:31:08.684 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Sep-2025 02:31:08.687 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Sep-2025 02:31:08.693 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Sep-2025 02:31:08.695 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Sep-2025 02:31:14.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.109
+24-Sep-2025 02:31:14.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 1 2025 12:15:33 UTC
+24-Sep-2025 02:31:14.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.109.0
+24-Sep-2025 02:31:14.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Sep-2025 02:31:14.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.0
+24-Sep-2025 02:31:14.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+24-Sep-2025 02:31:14.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kaitl/Library/Java/JavaVirtualMachines/openjdk-24.0.2+12-54/Contents/Home
+24-Sep-2025 02:31:14.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           24.0.2+12-54
+24-Sep-2025 02:31:14.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Sep-2025 02:31:14.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109
+24-Sep-2025 02:31:14.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/conf/logging.properties
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Sep-2025 02:31:14.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109
+24-Sep-2025 02:31:14.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109
+24-Sep-2025 02:31:14.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/temp
+24-Sep-2025 02:31:14.806 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kaitl/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Sep-2025 02:31:14.932 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Sep-2025 02:31:14.943 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [227] milliseconds
+24-Sep-2025 02:31:14.957 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Sep-2025 02:31:14.957 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.109]
+24-Sep-2025 02:31:14.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/docs]
+24-Sep-2025 02:31:15.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/docs] has finished in [104] ms
+24-Sep-2025 02:31:15.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/manager]
+24-Sep-2025 02:31:15.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/manager] has finished in [23] ms
+24-Sep-2025 02:31:15.090 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/examples]
+24-Sep-2025 02:31:15.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/examples] has finished in [101] ms
+24-Sep-2025 02:31:15.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/ROOT]
+24-Sep-2025 02:31:15.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/ROOT] has finished in [7] ms
+24-Sep-2025 02:31:15.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/request-headers]
+24-Sep-2025 02:31:15.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/request-headers] has finished in [14] ms
+24-Sep-2025 02:31:15.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/host-manager]
+24-Sep-2025 02:31:15.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kaitl/projects/csye6220/a1/apache-tomcat-9.0.109/webapps/host-manager] has finished in [8] ms
+24-Sep-2025 02:31:15.221 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Sep-2025 02:31:15.225 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [281] milliseconds

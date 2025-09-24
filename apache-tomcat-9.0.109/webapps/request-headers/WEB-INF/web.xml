@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <display-name>HTTP请求头学习教程</display-name>
+    <description>基于教材《HTTP-Request-Headers》的完整实践教程</description>
+
+    <!-- 第一章：基础请求头读取 -->
+    <servlet>
+        <servlet-name>ShowRequestHeaders</servlet-name>
+        <servlet-class>coreservlets.ShowRequestHeaders</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowRequestHeaders</servlet-name>
+        <url-pattern>/ShowRequestHeaders</url-pattern>
+    </servlet-mapping>
+
+    <!-- 第三章：页面压缩演示 -->
+    <servlet>
+        <servlet-name>LongServlet</servlet-name>
+        <servlet-class>coreservlets.LongServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LongServlet</servlet-name>
+        <url-pattern>/LongServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- 第四章：浏览器检测 -->
+    <servlet>
+        <servlet-name>BrowserInsult</servlet-name>
+        <servlet-class>coreservlets.BrowserInsult</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BrowserInsult</servlet-name>
+        <url-pattern>/BrowserInsult</url-pattern>
+    </servlet-mapping>
+
+    <!-- 第五章：Referer头处理 -->
+    <servlet>
+        <servlet-name>CustomizeImage</servlet-name>
+        <servlet-class>coreservlets.CustomizeImage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomizeImage</servlet-name>
+        <url-pattern>/CustomizeImage</url-pattern>
+    </servlet-mapping>
+
+    <!-- 第六章：CGI变量访问 -->
+    <servlet>
+        <servlet-name>ShowCGIVariables</servlet-name>
+        <servlet-class>coreservlets.ShowCGIVariables</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowCGIVariables</servlet-name>
+        <url-pattern>/ShowCGIVariables</url-pattern>
+    </servlet-mapping>
+
+    <!-- 欢迎页面 -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <!-- 会话配置 -->
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <!-- 错误页面配置 -->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error/404.html</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/error/500.html</location>
+    </error-page>
+
+</web-app>

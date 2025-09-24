@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+    <TITLE>HTTP请求头学习教程 - 完整版</TITLE>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+    <STYLE>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #FDF5E6; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        h1 { color: #8B4513; text-align: center; }
+        h2 { color: #A0522D; border-bottom: 2px solid #DEB887; padding-bottom: 5px; }
+        .chapter { background-color: #FFF8DC; border: 1px solid #DEB887; margin: 20px 0; padding: 20px; border-radius: 8px; }
+        .chapter h3 { color: #8B4513; margin-top: 0; }
+        .chapter p { line-height: 1.6; }
+        .button { 
+            display: inline-block; 
+            background-color: #DEB887; 
+            color: #8B4513; 
+            padding: 10px 20px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            margin: 5px;
+            font-weight: bold;
+        }
+        .button:hover { background-color: #D2B48C; }
+        .features { background-color: #F0F8FF; padding: 15px; border-left: 4px solid #4682B4; margin: 15px 0; }
+        .requirements { background-color: #F0FFF0; padding: 15px; border-left: 4px solid #32CD32; margin: 15px 0; }
+    </STYLE>
+</HEAD>
+<BODY>
+    <DIV class="container">
+        <H1>🌐 HTTP请求头学习教程 - 完整版</H1>
+        
+        <P style="text-align: center; font-size: 18px; color: #666;">
+            基于《HTTP-Request-Headers》文档的完整实践教程，包含6个独立章节，使用Apache Tomcat 9和Jakarta EE。
+            通过代码实例展示每个章节的不同上手练习，帮助学生理解和运用Servlets。
+        </P>
+
+        <DIV class="requirements">
+            <H3>📋 系统要求</H3>
+            <UL>
+                <LI><B>Java版本:</B> JDK 8 或更高版本</LI>
+                <LI><B>服务器:</B> Apache Tomcat 9.0.109</LI>
+                <LI><B>技术栈:</B> Jakarta EE (原Java EE)</LI>
+                <LI><B>浏览器:</B> 现代浏览器（Chrome、Firefox、Safari、Edge）</LI>
+            </UL>
+        </DIV>
+
+        <H2>📚 六个独立章节模块</H2>
+
+        <DIV class="chapter">
+            <H3>📖 第一章：基础请求头读取</H3>
+            <P>学习如何读取和处理基本的HTTP请求头，掌握<CODE>getHeader()</CODE>、<CODE>getHeaderNames()</CODE>等核心API，了解特殊访问方法如<CODE>getMethod()</CODE>、<CODE>getRequestURI()</CODE>。</P>
+            <P><B>学习目标:</B></P>
+            <UL>
+                <LI>掌握HTTP请求头的基本概念</LI>
+                <LI>学会使用Servlet API读取请求头</LI>
+                <LI>理解请求头在Web开发中的作用</LI>
+            </UL>
+            <A href="ShowRequestHeaders" class="button">开始学习第一章</A>
+        </DIV>
+
+        <DIV class="chapter">
+            <H3>🗜️ 第三章：页面压缩演示</H3>
+            <P>学习<CODE>Accept-Encoding</CODE>和<CODE>Content-Encoding</CODE>头的使用，实现页面压缩功能以节省带宽，了解GZIP、DEFLATE、Brotli等压缩格式。</P>
+            <P><B>学习目标:</B></P>
+            <UL>
+                <LI>理解HTTP压缩的工作原理</LI>
+                <LI>实现GZIP压缩功能</LI>
+                <LI>掌握性能优化技巧</LI>
+            </UL>
+            <A href="LongServlet" class="button">开始学习第三章</A>
+            <A href="LongServlet?disableGzip=true" class="button">禁用压缩测试</A>
+        </DIV>
+
+        <DIV class="chapter">
+            <H3>🌍 第四章：浏览器检测</H3>
+            <P>通过<CODE>User-Agent</CODE>头智能识别浏览器类型、版本和操作系统，实现设备类型检测（桌面、移动、平板），学习浏览器检测的实际应用场景。</P>
+            <P><B>学习目标:</B></P>
+            <UL>
+                <LI>掌握User-Agent头的分析方法</LI>
+                <LI>实现浏览器类型检测</LI>
+                <LI>了解设备类型识别技术</LI>
+            </UL>
+            <A href="BrowserInsult" class="button">开始学习第四章</A>
+        </DIV>
+
+        <DIV class="chapter">
+            <H3>🔗 第五章：Referer头处理</H3>
+            <P>学习<CODE>Referer</CODE>头的使用和来源检测，实现防盗链和来源分析功能，了解跨域请求处理和Referrer Policy。</P>
+            <P><B>学习目标:</B></P>
+            <UL>
+                <LI>理解Referer头的作用和限制</LI>
+                <LI>实现简单的防盗链功能</LI>
+                <LI>掌握来源分析和统计技术</LI>
+            </UL>
+            <A href="CustomizeImage" class="button">开始学习第五章</A>
+            <A href="test-referer.html" class="button">测试Referer页面</A>
+        </DIV>
+
+        <DIV class="chapter">
+            <H3>⚙️ 第六章：CGI变量访问</H3>
+            <P>访问服务器信息和标准CGI环境变量，学习客户端连接信息的获取，了解会话管理和环境变量访问。</P>
+            <P><B>学习目标:</B></P>
+            <UL>
+                <LI>掌握CGI变量的概念和用途</LI>
+                <LI>学会获取服务器环境信息</LI>
+                <LI>理解会话管理机制</LI>
+            </UL>
+            <A href="ShowCGIVariables" class="button">开始学习第六章</A>
+        </DIV>
+
+        <DIV class="features">
+            <H3>✨ 教程特色</H3>
+            <UL>
+                <LI><B>实践导向:</B> 每个章节都有完整的代码示例和实际应用</LI>
+                <LI><B>循序渐进:</B> 从基础概念到高级应用，逐步深入</LI>
+                <LI><B>中文注释:</B> 所有代码都有详细的中文注释说明</LI>
+                <LI><B>即时测试:</B> 可以直接在浏览器中测试每个功能</LI>
+                <LI><B>学习指导:</B> 每个页面都包含学习要点和实际应用场景</LI>
+            </UL>
+        </DIV>
+
+        <H2>🚀 快速开始</H2>
+        <OL>
+            <LI>确保Apache Tomcat 9.0.109正在运行</LI>
+            <LI>将项目部署到Tomcat的webapps目录</LI>
+            <LI>访问 <CODE>http://localhost:8080/request-headers/</CODE></LI>
+            <LI>按照章节顺序学习，或直接点击感兴趣的章节</LI>
+        </OL>
+
+        <H2>📖 学习建议</H2>
+        <UL>
+            <LI>建议按照章节顺序学习，每个章节都建立在前面的基础上</LI>
+            <LI>仔细阅读每个页面的"学习要点"部分</LI>
+            <LI>尝试修改代码参数，观察不同的效果</LI>
+            <LI>使用浏览器开发者工具查看HTTP请求头</LI>
+            <LI>在不同浏览器中测试，观察User-Agent的差异</LI>
+        </UL>
+
+        <DIV class="features">
+            <H3>🎯 练习指导说明</H3>
+            <P><B>每个章节都包含两个练习，学生需要完成以下任务：</B></P>
+            <UL>
+                <LI><B>练习1.1 & 1.2（第一章）</B>: 请求头分类显示和统计功能</LI>
+                <LI><B>练习3.1 & 3.2（第三章）</B>: 压缩效果对比和多种压缩格式支持</LI>
+                <LI><B>练习4.1 & 4.2（第四章）</B>: 详细浏览器信息解析和能力检测</LI>
+                <LI><B>练习5.1 & 5.2（第五章）</B>: 高级防盗链和来源分析统计</LI>
+                <LI><B>练习6.1 & 6.2（第六章）</B>: 服务器性能监控和访问日志分析</LI>
+            </UL>
+            
+            <P><B>如何完成练习：</B></P>
+            <OL>
+                <LI>访问每个章节的页面，查看当前的占位符和TODO注释</LI>
+                <LI>根据注释中的要求实现相应功能</LI>
+                <LI>修改代码后重新编译和部署</LI>
+                <LI>在浏览器中测试功能是否正常工作</LI>
+                <LI>观察HTML页面的变化，验证功能实现效果</LI>
+            </OL>
+            
+            <P><B>修改代码的步骤：</B></P>
+            <OL>
+                <LI>找到代码中的"学生修改区域"注释</LI>
+                <LI>阅读TODO注释中的具体要求</LI>
+                <LI>按照实现提示编写代码</LI>
+                <LI>替换或添加相应的功能实现</LI>
+                <LI>确保HTML输出格式正确</LI>
+            </OL>
+        </DIV>
+
+        <DIV class="requirements">
+            <H3>🔧 开发环境设置</H3>
+            <UL>
+                <LI><B>编译脚本</B>: 使用项目根目录的 <CODE>compile.sh</CODE> 编译Java文件</LI>
+                <LI><B>部署位置</B>: 编译后的.class文件会自动部署到 <CODE>webapps/request-headers/WEB-INF/classes/coreservlets/</CODE></LI>
+                <LI><B>测试方法</B>: 修改代码后重新编译，然后刷新浏览器页面查看效果</LI>
+                <LI><B>调试技巧</B>: 使用 <CODE>System.out.println()</CODE> 输出调试信息到Tomcat日志</LI>
+            </UL>
+        </DIV>
+
+        <P style="text-align: center; margin-top: 40px; color: #666;">
+            <I>基于教材《HTTP-Request-Headers》的完整实践教程</I><BR>
+            <I>使用Apache Tomcat 9和Jakarta EE技术栈</I>
+        </P>
+    </DIV>
+</BODY>
+</HTML>
